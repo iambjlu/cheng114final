@@ -45,5 +45,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>io.flutter.embedded_views_preview</key>
+    <true/>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>我們需要你的定位來顯示地圖位置。</string>
 </dict>
 </plist>
