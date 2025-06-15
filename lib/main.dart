@@ -36,6 +36,13 @@ class _cheng114finalHomeState extends State<cheng114finalHome> {
   gm.GoogleMapController? _mapController;
   Set<gm.Marker> _markers = {};
   Set<gm.Polyline> _polylines = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _getCurrentLocation();
+  }
+
   void _addAddressField() {
     setState(() {
       _controllers.add(TextEditingController());
